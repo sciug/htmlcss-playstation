@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --darkgrey: #363636;
+    --white: #ffffff;
+    
+    
+}
+
+
+
+
+.logo_wrapper{
+    max-width: 100px;
+
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
+.fa-chevron-down{
+    font-size: .5rem;
+}
+
