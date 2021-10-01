@@ -7,6 +7,10 @@
 
 img{width:100%}
 
+.border_radius{
+    border-radius: 15px;
+}
+
 
 /* utilities */
 
@@ -93,4 +97,8 @@ position: relative;}
     top: 0;
     left:-30px
   
+}
+.product_active{
+  outline: 3px solid #1079d4;
+  outline-offset: 5px;
 }
