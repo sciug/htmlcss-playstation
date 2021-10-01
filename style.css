@@ -19,7 +19,8 @@ img{width:100%}
     --orange: #cd3d0f;
     --blue:#1079d4;
     --extradarkgrey:#1f1f1f;
-    --lightgrey:#bebcbb;   
+    --lightgrey:#bebcbb;
+    --deepblue:#161c3b;   
 }
 .bg_darkgrey{
     background-color: var(--darkgrey);
@@ -34,9 +35,17 @@ img{width:100%}
 .bg_lightgrey{
     background-color: var(--lightgrey);
 }
+.bg_deepblue{
+    background-color: var(--deepblue);
+}
 
-.padding_top{
+
+.padding{
     padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+.padding_bottom{
+    padding-bottom: 5rem;
 }
 
 .text_blue{
@@ -149,4 +158,10 @@ img{width:100%}
 
 .banner_img_wrapper_smaller{
     width:250px;
+}
+
+.media{
+    width:40%;
+    margin: 0 auto;
+    text-align: center;
 }
