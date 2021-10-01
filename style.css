@@ -221,23 +221,44 @@ cursor: pointer;
     padding: .6em 1em;
     text-decoration: none;
 }
+
 .button:hover{
     color: white;
     cursor: pointer;
     outline-offset: 2px;
 }
+.button.bg_darkgrey:hover{
+    
+   outline: 3px solid var(--darkgrey);
+}
+.button.bg_orange:hover{
+    outline: 3px solid var(--orange);
+}
+
+.button.bg_blue:hover{
+    outline: 3px solid var(--blue);
+}
+
 
 
 .button_accent{
     color: #1079d4;
     background: #dfdfdf;
 }
+.button_accent:hover{
+    outline: 3px solid #dfdfdf;
+    color:#1079d4
+}
 
 .button_accent_second{
     background-color: white;
     color:#1f1f1f;
 }
+.button_accent_second:hover{
+    outline: 3px solid #dfdfdf;
+    color:#1f1f1f;
 
+}
 
 .button_big{
     font-size: 1.2rem;
