@@ -17,7 +17,8 @@ img{width:100%}
 :root{
     --darkgrey: #363636;
     --orange: #cd3d0f;
-    --blue:#1079d4;   
+    --blue:#1079d4;
+    --extradarkgrey:#1f1f1f;   
 }
 .bg_darkgrey{
     background-color: var(--darkgrey);
@@ -25,7 +26,9 @@ img{width:100%}
 .bg_orange{
     background-color: var(--orange);
 }
-
+.bg_darkgrey_extra{
+    background-color: var(--extradarkgrey);
+}
 .padding_top{
     padding-top: 6rem;
 }
@@ -98,7 +101,7 @@ img{width:100%}
 }
 .banner_img_wrapper{
     max-width: 300px;
-position: relative;}
+}
    
 .banner_img_wrapper img{
     width: 100%;
@@ -130,4 +133,14 @@ position: relative;}
 
 .playstation_item_inactive:hover{
     opacity: 1;
+}
+
+.play_sec_hero{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+
+}
+
+.banner_img_wrapper_smaller{
+    width:250px;
 }
