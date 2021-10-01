@@ -18,7 +18,8 @@ img{width:100%}
     --darkgrey: #363636;
     --orange: #cd3d0f;
     --blue:#1079d4;
-    --extradarkgrey:#1f1f1f;   
+    --extradarkgrey:#1f1f1f;
+    --lightgrey:#bebcbb;   
 }
 .bg_darkgrey{
     background-color: var(--darkgrey);
@@ -29,6 +30,11 @@ img{width:100%}
 .bg_darkgrey_extra{
     background-color: var(--extradarkgrey);
 }
+
+.bg_lightgrey{
+    background-color: var(--lightgrey);
+}
+
 .padding_top{
     padding-top: 6rem;
 }
