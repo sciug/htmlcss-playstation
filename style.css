@@ -172,10 +172,19 @@ img{width:100%}
 }
 
 /* footer */
+
+.lists .list-unstyled{
+    margin-bottom: 0;
+}
+
 .lists .list-unstyled li {
     margin-bottom: 1rem;
 }
 .lists .list-unstyled li a{
     text-decoration: none;
     color: white;
+}
+
+.sie_logo_wrapper{
+    width: 150px;
 }
