@@ -7,10 +7,20 @@
 
 :root{
     --darkgrey: #363636;
-    --white: #ffffff;
-    
-    
+    --orange: #cd3d0f;   
 }
+.bg_darkgrey{
+    background-color: var(--darkgrey);
+}
+.bg_orange{
+    background-color: var(--orange);
+}
+
+
+
+
+
+
 
 
 
@@ -20,6 +30,15 @@
 
 }
 
+
+
+
+
+
+
+
+
+
 .dropdown-toggle::after{
     content: none;
 }
@@ -27,3 +46,20 @@
     font-size: .5rem;
 }
 
+.header_bottom .nav-item{
+    margin-right: 1rem;
+}
+
+
+.nav_link{
+    color: black !important;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.search{
+    width: 30px;
+}
+.search img{
+    width: 100%;
+}
