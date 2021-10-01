@@ -38,7 +38,9 @@ img{width:100%}
 .bg_deepblue{
     background-color: var(--deepblue);
 }
-
+.bg_blue{
+    background-color: var(--blue);
+}
 
 .padding{
     padding-top: 6rem;
