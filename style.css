@@ -6,6 +6,9 @@
 }
 
 
+
+/* utilities */
+
 :root{
     --darkgrey: #363636;
     --orange: #cd3d0f;   
@@ -17,9 +20,13 @@
     background-color: var(--orange);
 }
 
+.padding_top{
+    padding-top: 15rem;
+}
 
 
 
+/* utilities */
 
 
 
