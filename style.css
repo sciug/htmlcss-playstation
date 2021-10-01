@@ -5,6 +5,7 @@
     font-family: Arial, sans-serif;
 }
 
+img{width:100%}
 
 
 /* utilities */
@@ -21,7 +22,7 @@
 }
 
 .padding_top{
-    padding-top: 15rem;
+    padding-top: 6rem;
 }
 
 
