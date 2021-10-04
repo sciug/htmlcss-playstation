@@ -394,6 +394,13 @@ cursor: pointer;
     
 }
 
+.color_lightgrey{
+    color: #f8f8f8;
+}
+
+
+
+
 #giochi_page{
     font-family: 'Open Sans', sans-serif !important;
 }
@@ -422,4 +429,17 @@ cursor: pointer;
 }
 #giochi_page .hero_sec{
     background-image: url(./img/spider.png);
+}
+
+#giochi_page .play_sec_hero_row{
+    padding: 5rem 0;
+}
+
+#giochi_page .play_sec_hero{
+    background-image: url(./img/bg-forbidden.png);
+    background-size: cover;
+    
+}
+#giochi_page .playFive_headings h5{
+    font-weight: 300;
 }
