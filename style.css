@@ -88,7 +88,6 @@ img{width:100%}
 /* header */
 
 
-
 .dropdown-toggle::after{
     content: none;
 }
@@ -265,4 +264,33 @@ cursor: pointer;
   
 
 
+}
+.nav_link:focus{
+    color:#1079d4 !important;
+}
+
+.fa-chevron-down{
+    transition: all 250ms;
+}
+
+.nav_link:focus .fa-chevron-down{
+    transform: rotate(-180deg);
+} 
+
+
+/* drop down */
+.dropdown{
+    position: unset !important;
+}
+.dropdown-menu{
+    left: 0;
+    width: 100vw;
+    top: unset!important;
+    background-color: #f8f9fa;
+    border:none;
+   
+}
+
+.width_item{
+    width:90px;
 }
