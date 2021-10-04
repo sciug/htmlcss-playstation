@@ -288,9 +288,22 @@ cursor: pointer;
     top: unset!important;
     background-color: #f8f9fa;
     border:none;
+    margin-top: .5rem !important;
+    
    
+}
+
+.dropdown_img_wrapper{
+    width: 100px;
 }
 
 .width_item{
     width:90px;
+}
+
+.dropdown_list_bottom{
+    list-style: none;
+}
+.dropdown_list_bottom li{
+    margin:0 2rem
 }
