@@ -383,6 +383,17 @@ cursor: pointer;
 }
 
 /* giochi_page */
+
+/* giochi_page - UTILITIES*/
+
+.box_shadow{
+    box-shadow: 0px 0px 10px #36363685;
+}
+.card_img_wrapper{
+    padding: 0;
+    
+}
+
 #giochi_page{
     font-family: 'Open Sans', sans-serif !important;
 }
