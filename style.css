@@ -67,6 +67,12 @@ img{width:100%}
     margin-top: 7rem;
 }
 
+.playFive_headings{
+    padding-bottom: 2rem;
+}
+
+.playplus_wrapper{height: 100%;}
+.playplus_wrapper img{height: 100%;}
 
 /* utilities */
 
@@ -191,8 +197,20 @@ cursor: pointer;
         padding-top: 15rem;
     }
     
+
 }
 
+@media screen and (min-width:768px) and (max-width:992px){
+    .playPlus.bg_lightgrey .playFive_headings{padding: 0;
+    }
+    .playFive_headings p{
+        margin: 2rem 0 !important;
+    }
+
+    .playPlus.bg_lightgrey .playFive_headings .banner_img_wrapper_smaller{
+        width: 170px;
+    }
+}
 
 /* footer */
 
@@ -309,6 +327,13 @@ cursor: pointer;
 .dropdown_list_bottom li{
     margin:0 2rem
 }
+.dropdown_link_container{
+    transition: all 250ms;
+    border-radius: 10px;
+}
 .dropdown_link_container:hover{
     box-shadow: 0px 0px 10px #3636364d;
+    cursor: pointer;
+    
+    
 }
