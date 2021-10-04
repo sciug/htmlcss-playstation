@@ -92,7 +92,9 @@ img{width:100%}
 
 
 /* header */
-
+.logo_header{
+    min-width: 40px;
+}
 
 .dropdown-toggle::after{
     content: none;
@@ -111,9 +113,11 @@ img{width:100%}
     font-size: 1.2rem;
     font-weight: 500;
 }
-
+.access_btn{
+    max-width: 100%;
+}
 .search{
-    width: 30px;
+    max-width: 30px;
 }
 .search img{
     width: 100%;
@@ -185,10 +189,12 @@ cursor: pointer;
     width:250px;
 }
 
-.media{
-    
-    text-align: center;
-}
+
+
+
+/* MEDIA QUERIES */
+
+
 
 @media screen and (min-width:1200px) {
     .media{
@@ -218,6 +224,10 @@ cursor: pointer;
     .play_sec_hero{background-position: center;}
 }
 
+
+
+
+
 /* footer */
 
 .lists .list-unstyled{
@@ -235,6 +245,12 @@ cursor: pointer;
 .sie_logo_wrapper{
     width: 150px;
 }
+.media{
+    
+    text-align: center;
+}
+
+
 
 
 /* HOVER */
