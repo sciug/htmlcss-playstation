@@ -127,7 +127,7 @@ img{width:100%}
 .hero_sec{
     background-image: url(./img/jumbo-bg.png);
     background-size: cover;
-    height: 90vh;
+   padding-bottom: 3rem;
     background-position: top;
 }
 .banner_img_wrapper{
