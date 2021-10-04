@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+   
 }
 
 img{width:100%}
@@ -330,6 +330,7 @@ cursor: pointer;
     border:none;
     margin-top: .5rem !important;
     
+    
    
 }
 
@@ -379,4 +380,35 @@ cursor: pointer;
     margin-right: .5rem;
     line-height:24px;
     vertical-align: middle;
+}
+
+/* giochi_page */
+#giochi_page{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+#giochi_page .banner_img_wrapper{
+    width: 300px;
+}
+
+#giochi_page .banner_img_wrapper img{
+    background-position: right;
+    padding-bottom: 5rem;
+}
+
+#giochi_page .display-4,
+#giochi_page .hero_sub_title{
+    color: #f8f8f8;
+    letter-spacing: 1.1px;
+
+    }
+
+ 
+#giochi_page .hero_sub_title{
+    font-size: 1.8rem;
+    font-weight: 300;
+   
+}
+#giochi_page .hero_sec{
+    background-image: url(./img/spider.png);
 }
