@@ -41,7 +41,8 @@ img{width:100%}
 .bg_blue{
     background-color: var(--blue);
 }
-
+.bg_white{background-color: white;
+color:var(--darkgrey) !important;}
 .padding{
     padding-top: 6rem;
     padding-bottom: 2rem;
